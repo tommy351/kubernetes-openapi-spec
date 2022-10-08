@@ -6,7 +6,7 @@ This repository contains OpenAPI spec JSON files for Kubernetes API.
 
 Files in `openapi` folder are almost identity to [`openapi-spec`](https://github.com/kubernetes/kubernetes/tree/master/api/openapi-spec) folder in `kubernetes` repository. The only difference is that OpenAPI files in this repository contains enum information.
 
-Enum information once existed in `kubernetes` repository in `1.23`, but was removed in [PR#108639](https://github.com/kubernetes/kubernetes/pull/108639) for compatibility issues.
+Enum information once existed in `kubernetes` repository in `1.23`, but was removed in [PR #109178](https://github.com/kubernetes/kubernetes/pull/109178) for compatibility issues.
 
 ## Build
 
