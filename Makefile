@@ -3,7 +3,7 @@ go_arch = $(shell go env GOARCH)
 
 # NOTE: Not all Kubernetes versions exist, check the URL below for supported versions.
 # https://storage.googleapis.com/kubebuilder-tools
-all: openapi/1.15.5.json openapi/1.21.2.json openapi/1.24.2.json openapi/1.25.0.json
+all: openapi/1.15.5.json openapi/1.21.2.json openapi/1.24.2.json openapi/1.25.0.json openapi/1.26.1.json openapi/1.27.1.json
 
 openapi/%.json: tmp/kubebuilder-tools-%-$(go_os)-$(go_arch)
 	mkdir -p $(dir $@)
