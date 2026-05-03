@@ -13,7 +13,10 @@ all: \
 	openapi/1.30.3.json \
 	openapi/1.31.0.json \
 	openapi/1.32.0.json \
-	openapi/1.33.0.json
+	openapi/1.33.0.json \
+	openapi/1.34.1.json \
+	openapi/1.35.0.json \
+	openapi/1.36.0.json
 
 openapi/%.json: tmp/kubebuilder-tools-%-$(go_os)-$(go_arch)
 	mkdir -p $(dir $@)
